@@ -10,35 +10,38 @@
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
+  <main>
+    <div class="title">
+      <h1>Learn to code by watching others</h1>
 
-  <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p> 
+    </div>
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+    <div class="tryFree">
+      <p><span id="spanTry">Try it free 7 days</span> then $20/mo. thereafter</p>
+    </div>
 
-  Try it free 7 days then $20/mo. thereafter
+    <div class="form">
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
+      <form action="/action_page.php">
+        <input class="input" type="text" id="fname" name="firstname" placeholder="First Name..">
+        <br>
+        <input class="input" type="text" id="lname" name="lastname" placeholder="Last Name..">
+        <br>
+        <input class="input" type="email" id="email" name="email" placeholder="E-mail..">
+        <br>
+        <input class="input" type="password" id="password" name="password" placeholder="Password..">
+      </form>
 
-  Claim your free trial 
+      <p class="claim">Claim your free trial</p>  
 
-  By clicking the button, you are agreeing to our Terms and Services
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      <p class="terms">By clicking the button, you are agreeing to our <span id="spanTerms">Terms and Services</span></p>
+
+    </div>
+  </main>
 </body>
 </html>

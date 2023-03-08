@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    background-image:  url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    background-position: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center ;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16;
+    
+}
+
+.title {
+    max-width: 30%;
+}
+
+
+.title h1 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 35px;
+    max-width: 350px;
+}
+
+.title p {
+    color: white;
+}
+
+.tryFree {
+    display: flex;
+    height: 5vh;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 7px;
+    color: rgb(211, 194, 194);
+    font-size: 16px;
+    padding: 1.2rem 2.2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+}
+
+#spanTry {
+    color: white;
+}
+
+.form {
+    max-width: 30%;
+    height: 60vh;
+    background-color: white;
+    padding: 2em;
+    border-radius: 7px;
+   
+}
+
+
+.input {
+    padding-bottom: 1em;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 2.8em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+
+.claim {
+    text-align: center;
+    padding: 0.5em;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.terms {
+    text-align: center;
+    font-size: 10px;
+}
+
+#spanTerms {
+    color: hsl(0, 100%, 74%) ;
+}
